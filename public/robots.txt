@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ilovelabel.com/sitemap.xml
+Sitemap: https://ilovelables.com/sitemap.xml

@@ -5,7 +5,7 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, 'https://ilovelabel.com');
+const canonicalURL = new URL(Astro.url.pathname, 'https://ilovelables.com');
 ---
 
 <!doctype html>
@@ -19,7 +19,7 @@ const canonicalURL = new URL(Astro.url.pathname, 'https://ilovelabel.com');
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content="shipping label crop, flipkart label crop, meesho label crop, label printer, thermal label, 4x6 label, shipping label tool, ecommerce seller tool, crop shipping label online, free label cropper" />
-    <meta name="author" content="ILoveLabel" />
+    <meta name="author" content="ILoveLables" />
     <link rel="canonical" href={canonicalURL.href} />
 
     <!-- Open Graph / Social -->
@@ -27,7 +27,7 @@ const canonicalURL = new URL(Astro.url.pathname, 'https://ilovelabel.com');
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL.href} />
-    <meta property="og:site_name" content="ILoveLabel" />
+    <meta property="og:site_name" content="ILoveLables" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -38,8 +38,8 @@ const canonicalURL = new URL(Astro.url.pathname, 'https://ilovelabel.com');
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebApplication",
-      "name": "ILoveLabel",
-      "url": "https://ilovelabel.com",
+      "name": "ILoveLables",
+      "url": "https://ilovelables.com",
       "description": description,
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Any",
