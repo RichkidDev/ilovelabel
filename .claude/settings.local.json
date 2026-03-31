@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(node -e \"const p = require\\(''pdfjs-dist/package.json''\\); console.log\\(p.version\\);\")",
+      "Bash(node --input-type=module -e \":*)",
+      "Bash(npm ls:*)",
+      "Bash(grep -E '\"\"main\"\"|\"\"module\"\"|\"\"type\"\"' \"D:/Rahul/My Lable Crop/node_modules/pdfjs-dist/package.json\")",
+      "Bash(npm run:*)",
+      "Bash(node -e \":*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx astro:*)",
+      "WebSearch",
+      "WebFetch(domain:www.svgrepo.com)",
+      "WebFetch(domain:uxwing.com)",
+      "Bash(npm uninstall:*)",
+      "Bash(curl -s http://localhost:4321)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(netstat -ano)",
+      "Bash(gh auth:*)",
+      "Bash(where gh:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --web)"
+    ]
+  }
+}
