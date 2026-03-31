@@ -28,11 +28,6 @@ export default defineConfig({
         canvas: 'data:text/javascript,export default {}',
       },
     },
-    build: {
-      rollupOptions: {
-        external: ['canvas'],
-      },
-    },
     optimizeDeps: {
       exclude: ['canvas'],
       esbuildOptions: {
