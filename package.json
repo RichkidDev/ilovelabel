@@ -3,8 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "browser": {
+    "canvas": false
+  },
   "scripts": {
+    "postinstall": "node scripts/patch-canvas.js",
     "dev": "astro dev",
+    "prebuild": "node scripts/patch-canvas.js",
     "build": "astro build",
     "preview": "astro preview",
     "lint": "eslint ."
