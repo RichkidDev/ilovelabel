@@ -149,9 +149,10 @@ export function usePdfProcessor(platform: Platform) {
             ? await generateLabelPrinterPdf(genBuf, [label])
             : await generateA4PrinterPdf(genBuf, [label]);
 
-          const labelName = label.sku
-            ? `${label.sku}-label-${i + 1}.pdf`
-            : `label-${i + 1}.pdf`;
+          const orderPart = label.orderNo || `label-${i + 1}`;
+          const datePart = new Date();
+          const dateStr = `${datePart.getFullYear()}-${String(datePart.getMonth() + 1).padStart(2, '0')}-${String(datePart.getDate()).padStart(2, '0')}`;
+          const labelName = `${orderPart}(${dateStr}) - Ilovelable.pdf`;
 
           perLabelResults.push({
             name: labelName,
@@ -184,15 +185,22 @@ export function usePdfProcessor(platform: Platform) {
     }
   }, [pdfFiles, platform, printerType]);
 
+  const formatDate = () => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  };
+
   const downloadMerged = useCallback(() => {
     if (!resultBlob) return;
     const url = URL.createObjectURL(resultBlob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${platform}-labels-merged-${Date.now()}.pdf`;
+    const orderIds = labels.map(l => l.orderNo).filter(Boolean);
+    const orderPart = orderIds.length > 0 ? orderIds.join('_') : 'labels';
+    a.download = `${orderPart}(${formatDate()}) - Ilovelable.pdf`;
     a.click();
     URL.revokeObjectURL(url);
-  }, [resultBlob, platform]);
+  }, [resultBlob, labels]);
 
   const downloadIndividual = useCallback(() => {
     individualResults.forEach((file, i) => {

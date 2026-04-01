@@ -1,0 +1,216 @@
+============================================================
+  ILOVELABLES - YOUTUBE VIDEO SCRIPT
+  "How to Crop Shipping Labels in Seconds"
+  Duration: ~4-5 minutes
+============================================================
+
+[SLIDE 1 - TITLE]
+----------------------------------------------------------
+VOICEOVER:
+"Hey sellers! Tired of wasting time cutting shipping labels
+with scissors? In this video, I'll show you a free tool that
+crops your Flipkart and Meesho labels automatically — in just
+seconds. Let's go!"
+
+SCREEN: Show title slide with ilovelables.com
+DURATION: ~10 seconds
+
+
+[SLIDE 2 - THE PROBLEM]
+----------------------------------------------------------
+VOICEOVER:
+"Here's the problem. Every time you download labels from
+Flipkart or Meesho, they come with the tax invoice attached.
+That means you have to manually cut each label.
+
+With 10 orders, that's annoying. With 50 orders? That's your
+entire evening. And if you cut wrong and damage the barcode,
+the courier rejects the package. Bad ratings. Unhappy customers."
+
+SCREEN: Show problem slide with the 4 pain points
+DURATION: ~25 seconds
+
+
+[SLIDE 3 - THE SOLUTION]
+----------------------------------------------------------
+VOICEOVER:
+"This is where ILoveLables comes in. It's a completely free
+online tool that automatically crops your shipping labels.
+
+It removes the invoice, trims the whitespace, and gives you
+clean 4x6 labels ready for your thermal printer. It works
+with both Flipkart AND Meesho. You can upload 100 labels at
+once. And the best part? Your data never leaves your device.
+Everything runs in your browser."
+
+SCREEN: Show solution slide with 6 feature cards
+DURATION: ~30 seconds
+
+
+[SLIDE 4 - STEP 1: DOWNLOAD LABELS]
+----------------------------------------------------------
+VOICEOVER:
+"OK let me show you how to use it. Step 1 — download your
+labels.
+
+For Flipkart sellers: Go to Flipkart Seller Hub, then Orders,
+then Ready to Ship. Select your orders and click Download
+Labels. Save that PDF.
+
+For Meesho sellers: Same thing — go to the Meesho Supplier
+Panel, Orders, Ready to Ship. Select orders, click Generate
+Label, and download the PDF."
+
+SCREEN: Show split slide with Flipkart and Meesho steps
+ACTION: If doing screen recording, show actual Seller Hub
+DURATION: ~30 seconds
+
+
+[SLIDE 5 - STEP 2: OPEN ILOVELABLES]
+----------------------------------------------------------
+VOICEOVER:
+"Step 2 — open ilovelables.com in your browser. That's
+i-love-lables dot com.
+
+You'll see two tabs at the top — blue for Flipkart and
+pink for Meesho. Click the tab for your platform. That's
+it. No login, no signup, no app to download."
+
+SCREEN: Show browser mockup with tabs
+ACTION: If doing screen recording, show actual website
+DURATION: ~20 seconds
+
+
+[SLIDE 6 - STEP 3: UPLOAD PDF]
+----------------------------------------------------------
+VOICEOVER:
+"Step 3 — upload your label PDF. You can simply drag and
+drop your PDF file into the upload area. Or click to browse
+and select the file.
+
+Pro tip: You can upload multiple PDFs at once. Just select
+all of them. The tool handles bulk processing easily."
+
+SCREEN: Show upload area mockup
+ACTION: If doing screen recording, drag a file in
+DURATION: ~20 seconds
+
+
+[SLIDE 7 - STEP 4: PREPARE & DOWNLOAD]
+----------------------------------------------------------
+VOICEOVER:
+"Step 4 — click the Prepare Shipping Labels button. The
+tool will automatically detect each label, remove the invoice,
+trim the whitespace, and sort everything by SKU.
+
+In just a few seconds, you'll see a results table showing
+how many labels were found, grouped by product.
+
+Now you can download all labels as one merged PDF — perfect
+for bulk printing. Or download individual labels if you
+prefer. The labels come out perfectly sized for 4x6 inch
+thermal printers. Just print and stick!"
+
+SCREEN: Show process flow (Button -> Processing -> Results)
+ACTION: If doing screen recording, click Prepare and show results
+DURATION: ~35 seconds
+
+
+[SLIDE 8 - PRO TIPS]
+----------------------------------------------------------
+VOICEOVER:
+"Now here are some pro tips to make your life even easier.
+
+For printers — I recommend the TSC TE244, Xprinter XP-460B,
+or TVS LP46. Set your paper size to 4x6 inch in the printer
+driver settings.
+
+For bulk processing — upload all your PDFs at once and use
+the Download All button for a single merged file. You can
+process over 100 labels in one go.
+
+The SKU sorting feature groups same products together, so
+you can pack faster and reduce errors.
+
+And here's a bonus — once the page loads, it even works
+offline! No internet needed for processing."
+
+SCREEN: Show 4 tip cards
+DURATION: ~40 seconds
+
+
+[SLIDE 9 - TROUBLESHOOTING]
+----------------------------------------------------------
+VOICEOVER:
+"If you run into any issues, here are quick fixes.
+
+Labels getting cut off? Make sure your PDF isn't rotated
+or from a scanned image.
+
+Processing too slow? Try smaller batches of 20-30 labels.
+
+Getting blank labels? Your PDF needs embedded text, not
+scanned images.
+
+Wrong label count? Double-check you selected the right
+platform tab.
+
+And always use Chrome or Edge for the best experience."
+
+SCREEN: Show troubleshooting slide
+DURATION: ~30 seconds
+
+
+[SLIDE 10 - CTA/OUTRO]
+----------------------------------------------------------
+VOICEOVER:
+"That's it! Stop wasting time cutting labels manually. Go
+to ilovelables.com right now — it's 100% free, no signup
+needed.
+
+If this video helped you, hit that like button and subscribe
+for more seller tips. Drop a comment if you have questions.
+
+Happy selling! See you in the next one."
+
+SCREEN: Show CTA slide with ilovelables.com
+DURATION: ~20 seconds
+
+
+============================================================
+  TOTAL ESTIMATED DURATION: ~4-5 minutes
+============================================================
+
+RECORDING TIPS:
+- Use OBS Studio or screen recorder for screen capture
+- Record at 1080p (1920x1080)
+- Use a clear microphone for voiceover
+- Add background music (royalty-free, low volume)
+- Add subscribe animation at the end
+- Add chapters in YouTube description for each step
+- Thumbnail: Show label being cropped with "FREE TOOL" text
+
+SUGGESTED YOUTUBE TITLE:
+"FREE Shipping Label Cropper for Flipkart & Meesho | Save Hours!"
+
+SUGGESTED DESCRIPTION:
+Stop cutting labels manually! ILoveLables is a free tool that
+automatically crops your Flipkart and Meesho shipping labels.
+
+Try it free: https://ilovelables.com
+
+Timestamps:
+0:00 - The Problem
+0:25 - The Solution
+0:55 - Step 1: Download Labels
+1:25 - Step 2: Open ILoveLables
+1:45 - Step 3: Upload PDF
+2:05 - Step 4: Prepare & Download
+2:40 - Pro Tips
+3:20 - Troubleshooting
+3:50 - Try It Now!
+
+SUGGESTED TAGS:
+flipkart seller, meesho seller, shipping label, label crop,
+thermal printer, 4x6 label, ecommerce india, seller tools,
+free tool, bulk labels, flipkart seller hub, meesho supplier

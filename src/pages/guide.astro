@@ -1,0 +1,407 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/app.css';
+import '../styles/guide.css';
+---
+
+<Layout
+  title="How to Use ILoveLables - Complete Guide for Flipkart & Meesho Sellers"
+  description="Step-by-step guide on how to crop shipping labels from Flipkart and Meesho PDFs using ILoveLables. Includes thermal printer setup, bulk processing tips, and troubleshooting."
+>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        <span class="brand-i">I</span><svg class="brand-heart" viewBox="0 0 24 24" width="22" height="22" fill="#ff3b5c"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><span class="brand-label">Lables</span>
+      </a>
+      <div class="navbar-right">
+        <a href="/guide" class="nav-guide-link nav-guide-link--active">How to Use</a>
+        <span class="navbar-tagline">The #1 Label Tool for Indian Sellers</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="guide-page">
+    <!-- Breadcrumb -->
+    <div class="guide-breadcrumb">
+      <a href="/">Home</a><span class="sep">/</span><span>Guide</span>
+    </div>
+
+    <!-- Page Header -->
+    <div class="guide-header">
+      <h1>Complete Guide to Cropping Shipping Labels</h1>
+      <p>Step-by-step instructions for Flipkart and Meesho sellers</p>
+    </div>
+
+    <!-- Quick Nav Cards -->
+    <div class="platform-selector">
+      <a href="#flipkart" class="platform-select-card platform-select-card--flipkart">
+        <div class="platform-select-card__icon">&#128230;</div>
+        <div class="platform-select-card__title">Flipkart Guide</div>
+      </a>
+      <a href="#meesho" class="platform-select-card platform-select-card--meesho">
+        <div class="platform-select-card__icon">&#128722;</div>
+        <div class="platform-select-card__title">Meesho Guide</div>
+      </a>
+      <a href="#tips" class="platform-select-card platform-select-card--tips">
+        <div class="platform-select-card__icon">&#128161;</div>
+        <div class="platform-select-card__title">Tips & Tricks</div>
+      </a>
+    </div>
+
+    <!-- ========== FLIPKART GUIDE ========== -->
+    <section class="guide-section" id="flipkart">
+      <h2 class="guide-section-heading">
+        Flipkart Label Cropping
+        <span class="guide-section-badge guide-section-badge--flipkart">Flipkart</span>
+      </h2>
+
+      <div class="step-cards">
+        <div class="step-card">
+          <div class="step-card__number step-card__number--flipkart">1</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Download Labels from Flipkart Seller Hub</h3>
+            <p class="step-card__desc">
+              Log in to your Flipkart Seller Hub. Go to Orders &rarr; Ready to Ship. Select your orders and click "Download Labels". Save the PDF file to your computer.
+            </p>
+            <div class="step-card__visual hint-card hint-card--flipkart">
+              <div class="hint-card__row"><span class="hint-icon">&#128187;</span> <strong>Flipkart Seller Hub</strong> &rarr; Orders &rarr; Ready to Ship</div>
+              <div class="hint-card__row"><span class="hint-icon">&#9745;&#65039;</span> Select orders &rarr; Click <span class="hint-btn hint-btn--flipkart">Download Labels</span></div>
+              <div class="hint-card__row"><span class="hint-icon">&#128190;</span> Save the <strong>.pdf</strong> file to your computer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--flipkart">2</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Select the Flipkart Tab on ILoveLables</h3>
+            <p class="step-card__desc">
+              Open <a href="/">ilovelables.com</a> and click on the blue "Flipkart" tab. This tells the tool to use Flipkart-specific label detection and cropping logic.
+            </p>
+            <div class="step-card__visual hint-card hint-card--flipkart">
+              <div class="hint-card__tabs">
+                <span class="hint-tab hint-tab--active hint-tab--flipkart">&#128230; Flipkart</span>
+                <span class="hint-tab">&#128722; Meesho</span>
+              </div>
+              <div class="hint-card__row" style="text-align: center; color: #888; font-size: 0.75rem;">Click the blue Flipkart tab (shown active above)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--flipkart">3</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Upload Your PDF</h3>
+            <p class="step-card__desc">
+              Drag and drop your label PDF into the upload area, or click to browse and select the file. You can upload multiple PDFs at once for bulk processing.
+            </p>
+            <div class="step-card__visual hint-card">
+              <div class="hint-upload-box">
+                <span style="font-size: 1.5rem;">&#128196;</span>
+                <div>Drag & drop PDFs here, or <strong>click to browse</strong></div>
+                <div style="font-size: 0.7rem; color: #aaa; margin-top: 4px;">Supports multiple files for bulk upload</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--flipkart">4</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Click "Prepare Labels" and Wait</h3>
+            <p class="step-card__desc">
+              Hit the "Prepare Shipping Labels" button. The tool will automatically detect each label, remove the invoice portion, trim whitespace, and sort labels by SKU. This takes just a few seconds.
+            </p>
+            <div class="step-card__visual hint-card">
+              <div class="hint-card__row" style="text-align: center;">
+                <span class="hint-btn hint-btn--primary">&#9881;&#65039; Prepare Shipping Labels</span>
+              </div>
+              <div class="hint-progress">
+                <div class="hint-progress__bar"></div>
+              </div>
+              <div class="hint-card__row" style="text-align: center; color: #888; font-size: 0.75rem;">Processing... Detecting labels, removing invoices, sorting by SKU</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--flipkart">5</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Download Cropped Labels</h3>
+            <p class="step-card__desc">
+              Once processing is complete, you'll see a summary showing how many labels were found, grouped by SKU. Download all labels as a single merged PDF, or download individual label PDFs. Print directly on your thermal printer!
+            </p>
+            <div class="step-card__visual hint-card hint-card--success">
+              <div class="hint-card__row"><span class="hint-icon">&#9989;</span> <strong>5 labels found</strong> from 3 SKUs</div>
+              <div class="hint-card__row hint-sku-row">
+                <span class="hint-sku">SKU-A001 <small>&times;2</small></span>
+                <span class="hint-sku">SKU-B045 <small>&times;2</small></span>
+                <span class="hint-sku">SKU-C102 <small>&times;1</small></span>
+              </div>
+              <div class="hint-card__row" style="display: flex; gap: 8px; justify-content: center; margin-top: 6px;">
+                <span class="hint-btn hint-btn--green">&#128229; Download All Labels</span>
+                <span class="hint-btn hint-btn--outline">&#128196; Individual PDFs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Demo: Flipkart Flow -->
+      <div class="demo-container">
+        <div class="demo-header">
+          <span class="demo-dot demo-dot--red"></span>
+          <span class="demo-dot demo-dot--yellow"></span>
+          <span class="demo-dot demo-dot--green"></span>
+          <span class="demo-url">ilovelables.com</span>
+        </div>
+        <div class="demo-screen">
+          <div class="demo-flow demo-flow--flipkart">
+            <!-- Frame 1: Tab Selection -->
+            <div class="demo-frame demo-frame--1">
+              <div class="demo-tabs">
+                <span class="demo-tab demo-tab--active-fk">Flipkart</span>
+                <span class="demo-tab">Meesho</span>
+              </div>
+              <div class="demo-label">Select Platform</div>
+            </div>
+            <!-- Frame 2: Upload -->
+            <div class="demo-frame demo-frame--2">
+              <div class="demo-upload-icon">&#128196;</div>
+              <div class="demo-upload-text">label.pdf uploaded</div>
+              <div class="demo-label">Upload PDF</div>
+            </div>
+            <!-- Frame 3: Processing -->
+            <div class="demo-frame demo-frame--3">
+              <div class="demo-spinner"></div>
+              <div class="demo-label">Processing...</div>
+            </div>
+            <!-- Frame 4: Results -->
+            <div class="demo-frame demo-frame--4">
+              <div class="demo-result-icon">&#9989;</div>
+              <div class="demo-result-text">5 labels ready</div>
+              <div class="demo-download-btn">Download All</div>
+              <div class="demo-label">Done!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MEESHO GUIDE ========== -->
+    <section class="guide-section" id="meesho">
+      <h2 class="guide-section-heading">
+        Meesho Label Cropping
+        <span class="guide-section-badge guide-section-badge--meesho">Meesho</span>
+      </h2>
+
+      <div class="step-cards">
+        <div class="step-card">
+          <div class="step-card__number step-card__number--meesho">1</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Download Labels from Meesho Supplier Panel</h3>
+            <p class="step-card__desc">
+              Log in to the Meesho Supplier Panel. Navigate to Orders &rarr; Ready to Ship. Select your orders, click "Generate Label", and download the PDF.
+            </p>
+            <div class="step-card__visual hint-card hint-card--meesho">
+              <div class="hint-card__row"><span class="hint-icon">&#128187;</span> <strong>Meesho Supplier Panel</strong> &rarr; Orders &rarr; Ready to Ship</div>
+              <div class="hint-card__row"><span class="hint-icon">&#9745;&#65039;</span> Select orders &rarr; Click <span class="hint-btn hint-btn--meesho">Generate Label</span></div>
+              <div class="hint-card__row"><span class="hint-icon">&#128190;</span> Download the <strong>.pdf</strong> file to your computer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--meesho">2</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Select the Meesho Tab on ILoveLables</h3>
+            <p class="step-card__desc">
+              Open <a href="/">ilovelables.com</a> and click on the pink "Meesho" tab. This activates Meesho-specific label parsing that handles the unique Meesho label layout.
+            </p>
+            <div class="step-card__visual hint-card hint-card--meesho">
+              <div class="hint-card__tabs">
+                <span class="hint-tab">&#128230; Flipkart</span>
+                <span class="hint-tab hint-tab--active hint-tab--meesho">&#128722; Meesho</span>
+              </div>
+              <div class="hint-card__row" style="text-align: center; color: #888; font-size: 0.75rem;">Click the pink Meesho tab (shown active above)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--meesho">3</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Upload Your PDF</h3>
+            <p class="step-card__desc">
+              Drag and drop your Meesho label PDF into the upload area, or click to browse. Bulk upload is supported — upload all your label PDFs at once.
+            </p>
+            <div class="step-card__visual hint-card">
+              <div class="hint-upload-box">
+                <span style="font-size: 1.5rem;">&#128196;</span>
+                <div>Drag & drop PDFs here, or <strong>click to browse</strong></div>
+                <div style="font-size: 0.7rem; color: #aaa; margin-top: 4px;">Upload all your Meesho label PDFs at once</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--meesho">4</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Click "Prepare Labels" and Review</h3>
+            <p class="step-card__desc">
+              Click "Prepare Shipping Labels". The tool detects Meesho labels, removes extra content, and groups everything by SKU. Review the SKU summary table to verify all labels were detected correctly.
+            </p>
+            <div class="step-card__visual hint-card">
+              <div class="hint-card__row" style="text-align: center;">
+                <span class="hint-btn hint-btn--primary">&#9881;&#65039; Prepare Shipping Labels</span>
+              </div>
+              <div class="hint-progress">
+                <div class="hint-progress__bar"></div>
+              </div>
+              <div class="hint-card__row" style="text-align: center; color: #888; font-size: 0.75rem;">Review the SKU summary table to verify all labels detected correctly</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-card__number step-card__number--meesho">5</div>
+          <div class="step-card__content">
+            <h3 class="step-card__title">Download and Print</h3>
+            <p class="step-card__desc">
+              Download your clean, cropped labels as a merged PDF or individually. The labels are sized perfectly for 4x6 inch thermal printers. Stick them on your packages and ship!
+            </p>
+            <div class="step-card__visual hint-card hint-card--success">
+              <div class="hint-card__row"><span class="hint-icon">&#9989;</span> <strong>8 labels found</strong> from 4 SKUs</div>
+              <div class="hint-card__row hint-sku-row">
+                <span class="hint-sku">MSH-201 <small>&times;3</small></span>
+                <span class="hint-sku">MSH-445 <small>&times;2</small></span>
+                <span class="hint-sku">MSH-678 <small>&times;2</small></span>
+                <span class="hint-sku">MSH-900 <small>&times;1</small></span>
+              </div>
+              <div class="hint-card__row" style="display: flex; gap: 8px; justify-content: center; margin-top: 6px;">
+                <span class="hint-btn hint-btn--green">&#128229; Download All Labels</span>
+                <span class="hint-btn hint-btn--outline">&#128424; Print Ready</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Demo: Meesho Flow -->
+      <div class="demo-container">
+        <div class="demo-header">
+          <span class="demo-dot demo-dot--red"></span>
+          <span class="demo-dot demo-dot--yellow"></span>
+          <span class="demo-dot demo-dot--green"></span>
+          <span class="demo-url">ilovelables.com</span>
+        </div>
+        <div class="demo-screen">
+          <div class="demo-flow demo-flow--meesho">
+            <!-- Frame 1: Tab Selection -->
+            <div class="demo-frame demo-frame--1">
+              <div class="demo-tabs">
+                <span class="demo-tab">Flipkart</span>
+                <span class="demo-tab demo-tab--active-mh">Meesho</span>
+              </div>
+              <div class="demo-label">Select Platform</div>
+            </div>
+            <!-- Frame 2: Upload -->
+            <div class="demo-frame demo-frame--2">
+              <div class="demo-upload-icon">&#128196;</div>
+              <div class="demo-upload-text">labels.pdf uploaded</div>
+              <div class="demo-label">Upload PDF</div>
+            </div>
+            <!-- Frame 3: Processing -->
+            <div class="demo-frame demo-frame--3">
+              <div class="demo-spinner"></div>
+              <div class="demo-label">Processing...</div>
+            </div>
+            <!-- Frame 4: Results -->
+            <div class="demo-frame demo-frame--4">
+              <div class="demo-result-icon">&#9989;</div>
+              <div class="demo-result-text">8 labels ready</div>
+              <div class="demo-download-btn demo-download-btn--meesho">Download All</div>
+              <div class="demo-label">Done!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TIPS & TRICKS ========== -->
+    <section class="guide-section" id="tips">
+      <h2 class="guide-section-heading">
+        Tips & Tricks
+        <span class="guide-section-badge guide-section-badge--tips">Pro Tips</span>
+      </h2>
+
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128424;</div>
+          <h3 class="tip-card__title">Thermal Printer Setup</h3>
+          <ul class="tip-card__content">
+            <li>Use a 4x6 inch (100x150mm) thermal label printer</li>
+            <li>Recommended: TSC TE244, Xprinter XP-460B, TVS LP46</li>
+            <li>Set paper size to 4x6 in printer driver settings</li>
+            <li>Use direct thermal labels (no ribbon needed)</li>
+            <li>Print at 203 DPI for best quality</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128640;</div>
+          <h3 class="tip-card__title">Bulk Processing</h3>
+          <ul class="tip-card__content">
+            <li>Upload multiple PDFs at once using drag & drop</li>
+            <li>Use "Download All" for a single merged PDF</li>
+            <li>Use individual downloads when packing by SKU</li>
+            <li>Process up to 100+ labels in one go</li>
+            <li>All processing happens locally — fast even offline</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#127991;&#65039;</div>
+          <h3 class="tip-card__title">SKU Sorting Explained</h3>
+          <ul class="tip-card__content">
+            <li>Labels are automatically grouped by product SKU</li>
+            <li>Same products appear together for faster packing</li>
+            <li>SKU summary table shows count per product</li>
+            <li>Reduces packing errors and speeds up dispatch</li>
+            <li>Works with all Flipkart and Meesho SKU formats</li>
+          </ul>
+        </div>
+
+        <div class="tip-card">
+          <div class="tip-card__icon">&#128295;</div>
+          <h3 class="tip-card__title">Troubleshooting</h3>
+          <ul class="tip-card__content">
+            <li><strong>Labels cut off?</strong> Check PDF is not rotated or scanned</li>
+            <li><strong>Slow processing?</strong> Try smaller batches (20-30 labels)</li>
+            <li><strong>Blank labels?</strong> Ensure PDF has embedded text, not scanned images</li>
+            <li><strong>Wrong count?</strong> Verify you selected the correct platform tab</li>
+            <li><strong>Browser crashes?</strong> Use Chrome or Edge for best performance</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <div class="guide-cta-banner">
+      <h2>Ready to Crop Your Labels?</h2>
+      <p>Try it free — no signup, no limits, no hidden charges.</p>
+      <a href="/" class="guide-cta-btn">Start Cropping Labels &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p class="footer-brand">
+      <span class="brand-i">I</span><svg class="brand-heart" viewBox="0 0 24 24" width="14" height="14" fill="#ff3b5c"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><span class="brand-label">Lables</span>
+    </p>
+    <p>Made with &#10084;&#65039; for Indian e-commerce sellers</p>
+    <p class="footer-privacy">&#128274; Your data stays on your device. Always.</p>
+  </footer>
+</Layout>
